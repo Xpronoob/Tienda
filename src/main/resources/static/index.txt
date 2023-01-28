@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Curso Progra</title>
+    </head>
+
+    <!-- SEO (search engine optimization) -->
+
+    <body>
+
+        <div>
+            <!-- Heading -->
+            <h1> Hola Mundo </h1>
+            <h2> Hola Mundo </h2>
+            <h3> Hola Mundo </h3>
+            <h4> Hola Mundo </h4>
+            <h5> Hola Mundo </h5>
+            <h6> Hola Mundo </h6>
+        </div>
+
+        <section>
+            <!-- Parrafo -->
+            <p>Hola Mundo en Parrafo</p>
+
+            <!-- Unordered list -->
+            <ul>
+                <li>first</li>
+                <li>second</li>
+                <li>third</li>
+            </ul>
+        </section>
+
+        <!-- Ordered list -->
+        <ol>
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+        </ol>
+
+        <!-- Hyperlink -->
+        <a href="home.html">Home</a>    <!-- Relativo -->
+        <a href="https://fonts.google.com/knowleadge">Fonts</a>     <!-- Absoluto -->
+
+        <img src="images/lock.png" alt="alt"/>
+
+    </body>
+</html>
