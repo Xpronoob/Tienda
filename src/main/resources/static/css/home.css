@@ -1,9 +1,82 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Jan 26, 2023, 6:30:43 PM
-    Author     : kevin
-*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
 
+/*Universal se aplica en todas las clases*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    /*Espacio entre etiquetas (Auto las centra horizontalmente)*/
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+nav {
+    padding-left: 60px;
+    display: inline-block;
+    position: relative;
+    left: 60%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    /*Primero valores eje x (arriba abajo)*/
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+}
+
+.content h1 {
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: rgb(231, 161, 56);
+}
+
+.content p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.content {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.fondo {
+    height: 208px;
+    width: 208px;
+    height: 168px;
+    width: 300px;
+    position: absolute;
+    bottom: 20%;
+    right: 38%;
+    box-sizing: border-box;
+}
