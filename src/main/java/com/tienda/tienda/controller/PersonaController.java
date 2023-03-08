@@ -37,7 +37,7 @@ public class PersonaController {
         List<Pais> listaPaises = paisService.listCountry();
         model.addAttribute("persona", new Persona());
         model.addAttribute("paises", listaPaises);
-        return "personas";
+        return "crear";
     }
 
     @PostMapping("/save")
